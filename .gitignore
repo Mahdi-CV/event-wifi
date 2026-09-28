@@ -1,0 +1,11 @@
+.venv/
+.codex/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+results/
+config/wifi.env
+config/*.local.toml
+*.log
+.DS_Store

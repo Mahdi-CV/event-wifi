@@ -1,0 +1,15 @@
+# Use `./scripts/inventory-adapters.sh` to identify interface names and MACs.
+# Interface names can change after reboot; MAC address is the safer identifier.
+
+[[adapter]]
+client_id = "AUTO-001"
+interface = "wlx001122334401"
+mac = "00:11:22:33:44:01"
+namespace = "ew-AUTO-001"
+
+[[adapter]]
+client_id = "AUTO-002"
+interface = "wlx001122334402"
+mac = "00:11:22:33:44:02"
+namespace = "ew-AUTO-002"
+
