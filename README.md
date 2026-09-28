@@ -68,23 +68,16 @@ and `config/*.local.toml` are ignored.
 | `docs/` | Deployment, test, and interpretation runbooks |
 | `tests/` | Offline unit tests |
 
-Start with [docs/OPERATIONS.md](docs/OPERATIONS.md), then use
-[docs/TEST-PLAN.md](docs/TEST-PLAN.md) to run a staged validation.
+Start with the canonical
+[Automated Event Wi-Fi & Jupyter Capacity Validation Plan](docs/PROJECT-PLAN.md).
+The [implementation plan](docs/IMPLEMENTATION-PLAN.md) adds workstreams,
+responsibilities, risks, decision gates, immediate next actions, and the
+definition of done. Then follow the [operations runbook](docs/OPERATIONS.md)
+and [detailed test plan](docs/TEST-PLAN.md).
 
-## Publish to GitHub
-
-After reviewing the initial commit:
-
-```bash
-git add .
-git commit -m "Initial event Wi-Fi capacity validator"
-git remote add origin git@github.com:YOUR-ORG/event-wifi.git
-git push -u origin main
-```
-
-Create the remote as a private repository if venue topology, internal Jupyter
-URLs, or test results will be tracked. Secrets must remain outside Git even in a
-private repository.
+The canonical repository is hosted under `Mahdi-CV/event-wifi`. Keep it private
+if venue topology, internal Jupyter URLs, or test results will be tracked.
+Secrets must remain outside Git even in a private repository.
 
 ## Recommended acceptance criteria
 
