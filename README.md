@@ -73,7 +73,8 @@ Start with the canonical
 The [implementation plan](docs/IMPLEMENTATION-PLAN.md) adds workstreams,
 responsibilities, risks, decision gates, immediate next actions, and the
 definition of done. Then follow the [operations runbook](docs/OPERATIONS.md)
-and [detailed test plan](docs/TEST-PLAN.md).
+and [detailed test plan](docs/TEST-PLAN.md). For a live event, use the
+[event-day Jupyter probe guide](docs/EVENT-DAY-JUPYTER-PROBE.md).
 
 The canonical repository is hosted under `Mahdi-CV/event-wifi`. Keep it private
 if venue topology, internal Jupyter URLs, or test results will be tracked.
